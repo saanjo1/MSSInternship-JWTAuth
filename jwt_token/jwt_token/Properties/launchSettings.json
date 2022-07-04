@@ -1,0 +1,41 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49553",
+      "sslPort": 44377
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "jwt_token": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "AZURE_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=storageuseradmin;AccountKey=q0jv+HA4mkRc1XD9xd5+khoR8jn4Fd/oZxcr5hUuxIWJVQJ8balY97XnabVbs7wpkFYAdi3b5DHmAjXf0YQulQ==;BlobEndpoint=https://storageuseradmin.blob.core.windows.net/;QueueEndpoint=https://storageuseradmin.queue.core.windows.net/;TableEndpoint=https://storageuseradmin.table.core.windows.net/;FileEndpoint=https://storageuseradmin.file.core.windows.net/;",
+        "AZURE_TABLE_NAME": "amusers",
+        "SECRET": "THIS IS SECRET lkabfuuesjbcjkdsvzdsvdhskbbvhvhhvhgdgdg",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "REGISTERED_AZURE_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=storageuseradmin;AccountKey=q0jv+HA4mkRc1XD9xd5+khoR8jn4Fd/oZxcr5hUuxIWJVQJ8balY97XnabVbs7wpkFYAdi3b5DHmAjXf0YQulQ==;BlobEndpoint=https://storageuseradmin.blob.core.windows.net/;QueueEndpoint=https://storageuseradmin.queue.core.windows.net/;TableEndpoint=https://storageuseradmin.table.core.windows.net/;FileEndpoint=https://storageuseradmin.file.core.windows.net/;",
+        "REGISTERED_AZURE_TABLE_NAME": "registeredusers",
+        "ROLE_AZURE_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=storageuseradmin;AccountKey=q0jv+HA4mkRc1XD9xd5+khoR8jn4Fd/oZxcr5hUuxIWJVQJ8balY97XnabVbs7wpkFYAdi3b5DHmAjXf0YQulQ==;BlobEndpoint=https://storageuseradmin.blob.core.windows.net/;QueueEndpoint=https://storageuseradmin.queue.core.windows.net/;TableEndpoint=https://storageuseradmin.table.core.windows.net/;FileEndpoint=https://storageuseradmin.file.core.windows.net/;",
+        "ROLE_AZURE_TABLE_NAME": "role",
+        "USERROLE_AZURE_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=storageuseradmin;AccountKey=q0jv+HA4mkRc1XD9xd5+khoR8jn4Fd/oZxcr5hUuxIWJVQJ8balY97XnabVbs7wpkFYAdi3b5DHmAjXf0YQulQ==;BlobEndpoint=https://storageuseradmin.blob.core.windows.net/;QueueEndpoint=https://storageuseradmin.queue.core.windows.net/;TableEndpoint=https://storageuseradmin.table.core.windows.net/;FileEndpoint=https://storageuseradmin.file.core.windows.net/;",
+        "USERROLE_AZURE_TABLE_NAME": "userroles"
+      },
+      "AllowedHosts": "*",
+      "dotnetRunMessages": "true",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
